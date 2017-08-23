@@ -2613,3 +2613,9 @@ footer .social-links li:first-child {
 	position: relative;
 	right: -5px;
 }
+
+@media screen and (max-width: 600px) {
+  #title_message {
+    visibility: hidden;
+  }
+}
