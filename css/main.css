@@ -13,7 +13,7 @@
 /*  06. =header styles
 /*  07. =hero section
 /*  08. =portfolio styles
-/*  09. =services
+/*  09. =workexperience + projects + photography
 /*  10. =about
 /*  11. =testimonials
 /*  12. =contact
@@ -1665,10 +1665,10 @@ ul#nav li.current a:after {
 }
 
 /* 
-/* 09. =services
+/* 09. =workexperience
 /* =================================================================== */
 
-#services {
+#workexperience {
 	background: #12151B;
 	padding-top: 120px;
 	padding-bottom: 120px;
@@ -1703,7 +1703,7 @@ ul#nav li.current a:after {
 
 }
 
-#services .service-list h3 {
+#workexperience .service-list h3 {
 	font: 18px/36px "raleway-heavy", sans-serif;
 	color: #9d48f2;/*#fdc501;*/
 	padding: 0;
@@ -1713,7 +1713,7 @@ ul#nav li.current a:after {
 }
 
 /* media queries:  
-/* #services / .service-list */
+/* #workexperience / .service-list */
 
 @media only screen and (max-width:1024px) {
 	.service-list {
@@ -1746,6 +1746,104 @@ ul#nav li.current a:after {
 	}
 
 }
+
+/* 
+/* 09.5. =projects
+/* =================================================================== */
+
+#projects {
+	background: #12151B;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	border-bottom: 1px solid #15191d;
+}
+
+.service-list {
+	margin: 18px -2px 0;
+}
+
+.service-list .bgrid {
+	padding: 0 22px 6px;
+}
+
+.service-list .bgrid {
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	border-radius: 5px;
+}
+
+.service-list .bgrid:hover {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width:600px) {
+	.service-list .bgrid:hover {
+		background: inherit;
+	}
+
+}
+
+#projects .service-list h3 {
+	font: 18px/36px "raleway-heavy", sans-serif;
+	color: #9d48f2;/*#fdc501;*/
+	padding: 0;
+	text-transform: none;
+	text-align: left;
+	margin-bottom: 6px;
+}
+
+
+/* 
+/* 09.55. =photography
+/* =================================================================== */
+
+#photography {
+	background: #12151B;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	border-bottom: 1px solid #15191d;
+}
+
+.service-list {
+	margin: 18px -2px 0;
+}
+
+.service-list .bgrid {
+	padding: 0 22px 6px;
+}
+
+.service-list .bgrid {
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	border-radius: 5px;
+}
+
+.service-list .bgrid:hover {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width:600px) {
+	.service-list .bgrid:hover {
+		background: inherit;
+	}
+
+}
+
+#photography .service-list h3 {
+	font: 18px/36px "raleway-heavy", sans-serif;
+	color: #9d48f2;/*#fdc501;*/
+	padding: 0;
+	text-transform: none;
+	text-align: left;
+	margin-bottom: 6px;
+}
+
 
 
 /* 
